@@ -1,0 +1,45 @@
+---
+---
+
+/* 1) Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Source+Sans+Pro:wght@400;600&display=swap");
+
+/* 2) Global Body */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #132D39;          /* Charcoal text */
+  background-color: #F5F5F5; /* Off‑White background */
+  margin: 0;
+  padding: 0;
+}
+
+/* 3) Headings (if any) */
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #132D39;
+  margin-top: 1em;
+}
+
+/* 4) Links & Buttons */
+a {
+  color: #132D39;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFE269; /* Yellow accent on hover */
+}
+
+/* 5) Call‑to‑Action Buttons */
+.btn-primary {
+  display: inline-block;
+  background-color: #FFE269;
+  color: #132D39;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-align: center;
+}
+.btn-primary:hover {
+  filter: brightness(0.9);
+}
