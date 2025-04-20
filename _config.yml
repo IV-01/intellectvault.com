@@ -1,0 +1,8 @@
+title: IntellectVault
+description: Empowering Minds with Finance, Tech & Luxury Insights
+url: "https://intellectvault.com"
+baseurl: ""
+
+remote_theme: pages-themes/minimal@v0.2.1
+plugins:
+  - jekyll-remote-theme
